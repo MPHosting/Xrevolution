@@ -1,5 +1,7 @@
 XREVOLUTION
 
+IMPORTANT SUDO CHMOD -R 7777 Xrevolution
+
 BUILD FOR WINDOWS ON UBUNTU
 
 First, install the general dependencies:
