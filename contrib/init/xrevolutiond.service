@@ -1,0 +1,22 @@
+[Unit]
+Description=Xrev's distributed currency daemon
+After=network.target
+
+[Service]
+User=xrevcore
+Group=xrevcore
+
+Type=forking
+PIDFile=/var/lib/xrevd/xrevd.pid
+ExecStart=/usr/bin/xrevd -daemon -pid=/var/lib/xrevd/xrevd.pid \
+-conf=/etc/xrevcore/xrev.conf -datadir=/var/lib/xrevd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
