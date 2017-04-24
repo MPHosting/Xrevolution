@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/xrev_bg.qm</file>
+        <file alias="de">locale/xrev_de.qm</file>
+        <file alias="en">locale/xrev_en.qm</file>
+        <file alias="es">locale/xrev_es.qm</file>
+        <file alias="fi">locale/xrev_fi.qm</file>
+        <file alias="fr">locale/xrev_fr.qm</file>
+        <file alias="it">locale/xrev_it.qm</file>
+        <file alias="ja">locale/xrev_ja.qm</file>
+        <file alias="pl">locale/xrev_pl.qm</file>
+        <file alias="pt">locale/xrev_pt.qm</file>
+        <file alias="ru">locale/xrev_ru.qm</file>
+        <file alias="sk">locale/xrev_sk.qm</file>
+        <file alias="sv">locale/xrev_sv.qm</file>
+        <file alias="vi">locale/xrev_vi.qm</file>
+        <file alias="zh_CN">locale/xrev_zh_CN.qm</file>
+        <file alias="zh_TW">locale/xrev_zh_TW.qm</file>
+    </qresource>
+</RCC>
