@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Xrev
+Comment=Xrev P2P Cryptocurrency
+Comment[fr]=Xrev, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Xrev, eşten eşe kriptografik sanal para birimi
+Exec=xrev-qt %u
+Terminal=false
+Type=Application
+Icon=xrev128
+MimeType=x-scheme-handler/xrev;
+Categories=Office;Finance;

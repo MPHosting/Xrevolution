@@ -1,0 +1,6 @@
+usr/local/bin/xrev-qt usr/bin
+share/pixmaps/xrev32.xpm usr/share/pixmaps
+share/pixmaps/xrev16.xpm usr/share/pixmaps
+share/pixmaps/xrev128.png usr/share/pixmaps
+debian/xrev-qt.desktop usr/share/applications
+debian/xrev-qt.protocol usr/share/kde4/services/
